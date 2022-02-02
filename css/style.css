@@ -51,6 +51,7 @@ form {
     align-items: center;
     width: 100%;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -80,11 +81,15 @@ button {
     color: red;
 }
 .limpar{
-    width: 290px;
-    height: 40px;
+    width: 250px;
+    height: 60px;
     background-color: #ed135a;
+    flex-direction: column;
 }
 .botao{
     width: 200px;
     height: 40px;
+    flex-direction: column;
 }
+
+
